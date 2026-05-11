@@ -1,0 +1,47 @@
+.textarea {
+    justify-content: center;
+    display: flex;
+}
+#textarea {
+    font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 85vw;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+}
+.tate {
+    writing-mode: vertical-rl;
+}
+.buttons {
+    margin: 8px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+button {
+    font-size: auto;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+@media ( max-width: 1090px ) {
+    .buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media ( max-width: 530px ) {
+    .buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media ( max-width: 500px ) {
+    .buttons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+#tate {
+    font-size: 20px;
+}
