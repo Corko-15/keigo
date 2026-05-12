@@ -22,6 +22,9 @@
     grid-template-columns: repeat(6, 1fr);
 }
 button {
+    border: 2px solid #eeeeee;
+    border-bottom: 2px solid #808080;
+    color: black;
     font-size: auto;
     width: auto;
     height: auto;
